@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+  
+  .hero h1 {
+    padding: 10px;
+  }
+  
+  .hero ul {
+    padding: 10px 20px;
+  }
+  
+  .flex-items {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .about .row,
+  .project .row,
+  .blog .row-reverse,
+  .contact .row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .project .row .column {
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .project .row .img {
+    width: 100%;
+  }
